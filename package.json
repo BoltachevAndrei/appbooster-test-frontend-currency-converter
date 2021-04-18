@@ -1,0 +1,45 @@
+{
+  "name": "appbooster",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Напишите SPA для конвертирования валют. Для получения текущих курсов найдите и используйте любое отрытое API.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --mode=development",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.13.8",
+    "@babel/preset-env": "7.13.9",
+    "@babel/preset-react": "7.12.13",
+    "@types/jest": "26.0.20",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.1",
+    "@types/react-router-dom": "5.1.7",
+    "@types/styled-components": "5.1.7",
+    "babel-jest": "26.6.3",
+    "babel-loader": "8.2.2",
+    "copy-webpack-plugin": "8.1.1",
+    "eslint": "7.21.0",
+    "jest": "26.6.3",
+    "prettier": "2.2.1",
+    "ts-jest": "26.5.3",
+    "ts-loader": "8.0.17",
+    "typescript": "4.2.3",
+    "webpack": "5.24.3",
+    "webpack-cli": "4.5.0",
+    "webpack-dev-server": "3.11.2"
+  },
+  "dependencies": {
+    "mobx": "6.1.8",
+    "mobx-react-lite": "3.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "5.2.0",
+    "styled-components": "5.2.1"
+  }
+}
